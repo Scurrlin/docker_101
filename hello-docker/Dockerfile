@@ -7,3 +7,4 @@ COPY . .
 CMD node hello.js
 
 # docker build -t hello-docker .
+# docker run hello-docker
