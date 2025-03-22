@@ -49,3 +49,8 @@ CMD npm run dev
 # docker run -p 5173:5173 react-docker
 # docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react-docker
 # docker container prune (remove all stopped containers)
+
+# PUBLISHING
+# docker login
+# docker tag react-docker <username>/react-docker
+# docker push <username>/react-docker
