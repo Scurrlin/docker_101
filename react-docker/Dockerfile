@@ -44,3 +44,6 @@ EXPOSE 5173
 
 # command to run the app
 CMD npm run dev
+
+# docker build -t react-docker .
+# docker run react-docker
